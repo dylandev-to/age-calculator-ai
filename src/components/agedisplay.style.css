@@ -1,0 +1,50 @@
+.AgeDisplay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.300);
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AgeDisplay > .card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.AgeDisplay > .card > .title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.AgeDisplay > .card > .description {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.AgeDisplay > .card > .age {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.AgeDisplay > .card > button {
+    font-size: 14px;
+    background-color: var(--secondary);
+    color: var(--background);
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}

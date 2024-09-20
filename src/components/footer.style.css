@@ -1,0 +1,19 @@
+.Footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--background);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+.Footer > p {
+    font-weight: 600;
+}
+
+.Footer > p > span {
+    color: var(--third);
+    font-weight: 400;
+}

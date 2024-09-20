@@ -1,0 +1,18 @@
+.Header {
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 20px;
+}
+
+.Header > p {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Header > img {
+    border-radius: 10px;
+    cursor: pointer;
+}
